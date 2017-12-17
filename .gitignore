@@ -3,6 +3,7 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## Build generated
+.DS_Store
 build/
 DerivedData/
 
@@ -22,7 +23,6 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
-## Obj-C/Swift specific
 *.hmap
 *.ipa
 *.dSYM.zip
@@ -34,7 +34,7 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+  Pods/
 
 # Carthage
 #
@@ -61,3 +61,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Moyu/Pods
